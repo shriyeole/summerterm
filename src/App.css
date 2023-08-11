@@ -36,3 +36,59 @@
     transform: rotate(360deg);
   }
 }
+/* App.css */
+.App {
+  text-align: center;
+}
+
+nav {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.content {
+  display: flex;
+}
+
+aside {
+  background-color: #f4f4f4;
+  min-width: 200px;
+  padding: 20px;
+}
+
+aside ul {
+  list-style: none;
+  padding: 0;
+}
+
+aside li {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+div {
+  padding: 20px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+p {
+  line-height: 1.5;
+}
+
